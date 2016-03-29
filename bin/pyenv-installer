@@ -36,12 +36,12 @@ else
   GITHUB="https://github.com"
 fi
 
-checkout "${GITHUB}/yyuu/pyenv.git"            "${PYENV_ROOT}"
-checkout "${GITHUB}/yyuu/pyenv-doctor.git"     "${PYENV_ROOT}/plugins/pyenv-doctor"
-checkout "${GITHUB}/yyuu/pyenv-installer.git"  "${PYENV_ROOT}/plugins/pyenv-installer"
-checkout "${GITHUB}/yyuu/pyenv-update.git"     "${PYENV_ROOT}/plugins/pyenv-update"
-checkout "${GITHUB}/yyuu/pyenv-virtualenv.git" "${PYENV_ROOT}/plugins/pyenv-virtualenv"
-checkout "${GITHUB}/yyuu/pyenv-which-ext.git"  "${PYENV_ROOT}/plugins/pyenv-which-ext"
+checkout "${GITHUB}/kccsairc/pyenv.git"            "${PYENV_ROOT}"
+checkout "${GITHUB}/kccsairc/pyenv-doctor.git"     "${PYENV_ROOT}/plugins/pyenv-doctor"
+checkout "${GITHUB}/kccsairc/pyenv-installer.git"  "${PYENV_ROOT}/plugins/pyenv-installer"
+checkout "${GITHUB}/kccsairc/pyenv-update.git"     "${PYENV_ROOT}/plugins/pyenv-update"
+checkout "${GITHUB}/kccsairc/pyenv-virtualenv.git" "${PYENV_ROOT}/plugins/pyenv-virtualenv"
+checkout "${GITHUB}/kccsairc/pyenv-which-ext.git"  "${PYENV_ROOT}/plugins/pyenv-which-ext"
 
 if ! command -v pyenv 1>/dev/null; then
   { echo
